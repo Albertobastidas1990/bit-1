@@ -1,0 +1,8 @@
+body {
+
+    background-image: linear-gradient(rgb(35, 4, 4), rgb(182, 19, 19));
+    color: white;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
