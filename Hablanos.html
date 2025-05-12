@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./hablanos.css">
-    <link rel="icon" type="image/jpg" href="./bit-website/assets/foto alberto.jpg">
-    <title>Fiestas y Eventos</title>
+    <title>Hablanos</title>
 
     <style>
 
@@ -124,11 +123,11 @@
     <fieldset class="cuadro">
     
 
-   <form>
+   <form onsubmit="return mostrarAlerta()">
 
     
     <label for="name">Nombre</label>
-    <input type="Nombre" placeholder="Ingresa tu nombre">
+    <input type="text" name="nombre" placeholder="Tu nombre" required />
 
     <br>
 
@@ -161,6 +160,11 @@
 
     <br>
 
+    <label for="edad">edad</label>
+    <input type="edad" placeholder="Ingresa tu edad">
+
+    <br>
+
     
     <label for="name">Correo</label>
     <input type="Correo" placeholder="Ingresa tu correo">
@@ -172,9 +176,8 @@
     
 
     <br>
-
-   <button> <a href="./registro.html">ACEPTAR</a></button>
-
+    
+    <button type="submit">Enviar</button>
    </form>
 </fieldset>
 
@@ -184,9 +187,9 @@
         <h3>¿Quieres saber más de nosotros?</h3>
         <p>Visita nuestras redes sociales</p>
     
-        <a href="https://web.facebook.com/profile.php?id=100094350587214"><button> <img src="./BIT-1/assets/iconofacebook.png" alt="iconofacebook"> </button></a>
-        <a href="https://www.instagram.com/lasupremahamburgueseria/"><button><img src="./BIT-1/assets/iconoinstagram.png" alt="Instagram"></button></a>
-        <a href="https://www.tiktok.com/@lasupremahamburgueseria"><button><img src="./BIT-1/assets/iconotiktok.png" alt="Instagram" width="50%"></button></a>
+        <a href="https://web.facebook.com/profile.php?id=100094350587214"><button> <img src="./assets/facebooklogo.jpeg" alt="iconofacebook" width="20%" height="20%"> </button></a>
+        <a href="https://www.instagram.com/lasupremahamburgueseria/"><button><img src="./assets/iconoinstagram.png" alt="Instagram"></button></a>
+        <a href="https://www.tiktok.com/@lasupremahamburgueseria"><button><img src="./assets/iconotiktok.png" alt="Instagram" width="50%"></button></a>
 
 
         <hr color="black">
@@ -197,6 +200,8 @@
          <hr color="black">
 
 
-
+<script type="text/javascript">
+  alert("Bienvenido a la sección de hablanos, por favor completa el formulario para obtener un descuento del 25% en tu primera compra");
+</script>
 </body>
 </html>

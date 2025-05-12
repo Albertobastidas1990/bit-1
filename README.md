@@ -23,10 +23,18 @@ ste proyecto web es un sitio responsive que habla sobre mi negocio de hamburgues
 Enlace figma: - Figma link ( https://www.figma.com/design/FMi4cALvswvvMG24xw6K6U/Untitled?node-id=23-4&t=a17W4fiPFbfekAFq-1)
 
 
-![Imagen figma](./BIT-1/assets/figma.png)
+![Imagen figma](./assets/figma.png)
+
+# Github pages
+
+https://albertobastidas1990.github.io/bit-1/
+
+# Github URL de acceso público
+
+https://github.com/Albertobastidas1990/bit-1.git
+
 
 # Autor
 
 Alberto Andrés Bastidas Méndez
 
-# enlace con un contacto del autor

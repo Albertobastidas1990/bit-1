@@ -1,8 +1,8 @@
 body {
-
-    background-image: linear-gradient(rgb(35, 4, 4), rgb(212, 86, 86));
+    background-image: url(./assets/lentejas\ con\ vegetales.jpg);
     color: white;
     font-size: larger;
     text-align: center;
     font-family: 'Arial', sans-serif;
+    font-weight: bold;
 }
