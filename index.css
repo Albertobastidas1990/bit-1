@@ -9,10 +9,11 @@ body {
 button {
 
     border-radius: 30%;
+    
 }
 
 button:hover {
-    background-color: rgb(32, 68, 228);
+    background-color: rgb(190, 194, 211);
     color: black;
     cursor: pointer;
     transition: background-color 0.3s ease;
